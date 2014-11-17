@@ -1,4 +1,12 @@
-var ws = new WebSocket("ws://localhost:8080/tp07-front/control");
+var url = window.location.origin+window.location.pathname;
+url = url.replace("http","ws")
+var urlParts = url.split("/");
+urlParts.pop();
+var newUrl = urlParts.join("/")+"/control";
+
+
+var ws = new WebSocket(newUrl);
+
 var notifyServer = function(event) {
 	data = {
 		indexv : Reveal.getIndices().v,
