@@ -26,3 +26,5 @@ Au boulot !
 - étoffez le projet avec un peu de JEE pour obtenir le même résultat !
 - normalement, aucune modification ne doit-être apportée aux ressources statiques existantes
 - trouvez une solution pour qu'un auditeur prenant la présentation "en cours de route" reçoivent bien la dernière slide affichée chez les autres.
+- si vous avez trop de temps, trouvez une solution pour proposer un API ReST qui permet d'envoyer une commande de changement de slide.
+ - avec du bean validation bien évidemment...
