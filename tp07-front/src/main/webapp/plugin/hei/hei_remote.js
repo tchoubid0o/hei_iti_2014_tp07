@@ -10,6 +10,7 @@ var ws = new WebSocket(newUrl);
 
 ws.onopen = function(){
     console.log("Connecte en Websockets !");
+    Reveal.test();
 };
 
 ws.onmessage = function (evt){ 
